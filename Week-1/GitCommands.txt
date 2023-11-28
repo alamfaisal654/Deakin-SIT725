@@ -1,0 +1,23 @@
+1. Create account on github
+Download git
+Download github windows utility
+git config --global user.name "alamfaisal654"
+git config --global user.email "alamfaisal654@gmail.com"
+
+gh auth login ---- Follow the prompt
+
+Create a repo on github with the name "sit725-2023-t2-prac1"
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alamfaisal654/sit725-2023-t2-prac1.git
+git push -u origin main
+
+
+Or push from existing repo like this
+
+git remote add origin https://github.com/alamfaisal654/sit725-2023-t2-prac1.git
+git branch -M main
+git push -u origin main

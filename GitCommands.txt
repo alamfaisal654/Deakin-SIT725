@@ -1,0 +1,4 @@
+1. Create account on github
+2. git config --global user.name "alamfaisal654"
+3. git config --global user.email "alamfaisal654@gmail.com"
+4. 
