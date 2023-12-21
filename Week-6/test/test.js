@@ -43,6 +43,8 @@ describe("Add Two Numbers", function() {
     var url = "http://localhost:8080/addTwoNumbers/a/b";
     it("should return status 200", function(done) {
         request(url, function(error, response, body) {
+           // resp = JSON.parse(response);
+           // console.log(response);
             expect(response.statusCode).to.equal(200);
             done()
           });
