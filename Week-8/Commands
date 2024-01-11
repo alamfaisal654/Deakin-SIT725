@@ -1,5 +1,6 @@
-docker build -t <AccountName>/week-8:1.1.1 .
+docker build -t alamfaisal654/week-8:1.1.1 .
 docker run -p 5050:3000 <AccountName>/week-8:1.1.1
 docker ps
 docker exec -it <ImageId> /bin/bash
 docker push <AccountName>/week-8:1.1.1
+docker rmi <AccountName>/week-8:1.1.1
